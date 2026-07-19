@@ -1,22 +1,75 @@
-# AI Food Calorie Predictor
+# 🥗 AI Food Calorie Predictor
 
-## Overview
-AI-powered web application for food calorie estimation and BMI prediction. The project combines machine learning models with a Flask-based web interface to provide calorie-related insights and health metrics.
+An AI-powered machine learning application that predicts calorie requirements and nutritional information using health-related user inputs.
 
-## Features
-- Food calorie information
-- BMI prediction
-- Height and weight prediction models
-- Web-based interface
+---
 
-## Tech Stack
+## 📌 Overview
+
+The project utilizes machine learning techniques to estimate calorie requirements based on user attributes, providing a foundation for intelligent nutrition planning applications.
+
+---
+
+## ✨ Features
+
+- User health metric input
+- AI-based calorie prediction
+- Fast prediction engine
+- Clean interface
+
+---
+
+## 🛠 Tech Stack
+
 - Python
-- Flask
-- HTML/CSS
 - Machine Learning
+- Pandas
+- NumPy
+- Scikit-learn
 
-## Run
+---
+
+## 📂 Project Structure
+
+```
+AI_Food_Calorie_Predictor/
+│
+├── dataset/
+├── model/
+├── app.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🚀 Installation
+
 ```bash
+git clone https://github.com/NandanSharma94439/ai-food-calorie-predictor.git
+
+cd ai-food-calorie-predictor
+
 pip install -r requirements.txt
+
 python app.py
 ```
+
+---
+
+## 📈 Future Improvements
+
+- Food image recognition
+- Personalized meal recommendations
+- Nutrition dashboard
+- Mobile application integration
+
+---
+
+## 👨‍💻 Author
+
+Nandan Sharma
+
+## 📄 License
+
+MIT License
